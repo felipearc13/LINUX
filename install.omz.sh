@@ -2,11 +2,12 @@
 
 ## Update the packages
 
+cd
 apt-get update && apt upgrade -y
 
 ## Install prerequisite packages (ZSH, powerline & powerline fonts)
 
-apt install zsh powerline fonts-powerline -y
+apt install git zsh powerline fonts-powerline -y
 
 ## Clone the Oh My Zsh Repo
 
