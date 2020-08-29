@@ -2,7 +2,7 @@
 
 ## Update the packages
 
-cd
+cd ~
 apt-get update && apt upgrade -y
 
 ## Install prerequisite packages (ZSH, powerline & powerline fonts)
@@ -11,7 +11,7 @@ apt install git zsh powerline fonts-powerline -y
 
 ## Clone the Oh My Zsh Repo
 
-git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+git clone https://github.com/robbyrussell/oh-my-zsh.git .oh-my-zsh
 
 ## Create a New ZSH configuration file
 
@@ -19,7 +19,7 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 ## Change zsh theme robbyrussell to agnoster
 
-sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' ~/.zshrc
+sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
 
 ## Change your Default Shell
 
